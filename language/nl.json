@@ -1,39 +1,39 @@
 {
   "semantics":[
     {
-      "label":"Question"
+      "label":"Vraag"
     },
     {
-      "label":"Multiple choice type",
+      "label":"Meerkeuze type",
       "options":[
         {
-          "label":"Multiple answers"
+          "label":"Meerdere juiste antwoorden"
         },
         {
-          "label":"Single answer"
+          "label":"1 juist antwoord"
         }
       ],
       "default":"checkbox"
     },
     {
-      "label":"Answer alternatives",
-      "entity":"Alternative",
+      "label":"Antwoordopties",
+      "entity":"Optie",
       "field":{
-        "label":"Alternative",
+        "label":"Optie",
         "fields":[
           {
-            "label":"Text"
+            "label":"Tekst"
           },
           {
             "label":"Feedback",
             "fields":[
               {
-                "label":"Message displayed if answer is selected",
-                "description":"Message will appear below the answer on \"continue\" if this answer is selected."
+                "label":"Boodschap wanneer antwoord geselecteerd is",
+                "description":"Boodschap zal onder het antwoord verschijnen bij  \"verder\" wanneer dit antwoord geselecteerd is."
               },
               {
-                "label":"Message displayed if answer is not selected",
-                "description":"Message will appear below the answer on \"continue\" if this answer is not selected."
+                "label":"Boodschap wanneer antwoord niet geselecteerd is",
+                "description":"Boodschap zal onder het antwoord verschijnen bij  \"verder\" wanneer dit antwoord niet geselecteerd is."
               }
             ]
           }
